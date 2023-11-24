@@ -1,0 +1,353 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(245, 240, 240);
+    
+    
+}
+.nav_links{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+li{
+    float: left;
+    
+}
+li a{
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+li a :visited{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+li a :hover{
+    color: rgb(196, 94, 94);
+}
+.paragraph{
+    text-align: center;
+    padding: 200px; 
+    font-family:monospace;
+    font-size: 15px;
+    padding-left: 15px;
+    margin-bottom: 15px; 
+   
+    
+}
+h2{
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 1.5em;
+    width: 220px;
+}
+#paragraph_metin{
+    color: black;
+    text-align: left;
+    width: 750px;
+    padding-left: 40px;
+    line-height: 1.5;
+}
+img.yuvarlak {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    float: right;
+    position: relative;
+    top: 90px;
+}
+button{
+    position: relative;;
+    bottom: 100px;
+    left: 50px;
+    background: rgb(221, 22, 22);
+    color: white;
+    border: 0;
+    width: 160px;
+    height: 22px;
+}
+.article{
+    background-color: #EDF7FA;
+    flex-shrink: 0;
+    margin: auto;
+    height: 396px;
+}
+.recent{
+    float: left;
+    width: 120px;
+    height: 15px;
+    padding-left: 50px;
+    padding-top: 15px;  
+    
+    
+}
+.recent_text{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.info1{
+    width: 530px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-top: 90px;
+    position: relative;
+    top: 55px;
+    left: 90px;
+   
+
+}
+.info1_title{
+    font-size: 25px;
+    position: relative;
+    left: 5px;
+    bottom: 25px;  
+}
+.info1_text{
+    font-size: 19px;
+    position: relative;
+    left: 5px;
+    bottom: 15px; 
+    word-spacing: 3px;
+}
+.info2{
+    float: right;
+    background-color: #ffffff;
+    text-align: right;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    bottom: 185px;
+    right: 120px;
+}
+.info2_title{
+    font-size: 23px;
+    position: relative;
+    right: 75px;
+    top: 55px;  
+}
+.info2_text{
+    font-size: 19px;
+    position: relative;
+    right: 150px;
+    top: 70px; 
+    word-spacing: 3px;
+    padding-bottom: 15px;
+}
+.info2_txt{
+    font-size: 15px;
+    position: relative;
+    right: 20px;
+    top: 70px; 
+    
+}
+.link{
+    width: 208px;
+    height: 20px;
+    position: relative;
+    left: 1250px;
+    bottom: 220px;
+    text-decoration: none;
+    color: #00A8CC;
+    text-align: right;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section2{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+.titleSection2{
+    width: 150px;
+    height: 20px;
+    background: #ffffff;
+    position: relative;
+    left: 30px;
+    top: 45px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.image1{
+    width: 246px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    position: relative;
+    top: 95px;
+    left: 35px;
+}
+.card1Title{
+    position: relative;
+    bottom: 80px;
+    left: 320px;
+}
+.date{
+    background-color: #142850;
+    position: relative;
+    bottom: 70px;
+    left: 320px;
+    border-radius: 16px;
+    width: 50px;
+    height: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+.dates{
+    position: relative;
+    left: 11px;
+}
+
+.dash{
+    position: relative;
+    left: 17px;
+    bottom: 18px;
+    left: 80px;
+    border-radius: 16px;
+    width: 50px;
+    height: 20px;
+    color: #8695A4;
+    font-weight: 400;
+    font-size: 19px;
+}
+.cardP{
+    width: 550px;
+    position: relative;
+    left: 310px;
+    bottom: 50px;
+}
+.image2{
+    width: 246px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+.card2Title{
+    position: relative;
+    bottom: 150px;
+    left: 320px;
+}
+.date2{
+    background-color: #142850;
+    position: relative;
+    bottom: 130px;
+    left: 320px;
+    border-radius: 16px;
+    width: 50px;
+    height: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+.dates2{
+    position: relative;
+    left: 11px;
+}
+
+.dash2{
+    position: relative;
+    left: 17px;
+    bottom: 18px;
+    left: 80px;
+    border-radius: 16px;
+    width: 50px;
+    height: 20px;
+    color: #8695A4;
+    font-weight: 400;
+    font-size: 19px;
+}
+.cardP2{
+    width: 550px;
+    position: relative;
+    left: 310px;
+    bottom: 110px;
+}
+.image3{
+    width: 246px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+.card3Title{
+    position: relative;
+    bottom: 150px;
+    left: 320px;
+}
+.date3{
+    background-color: #142850;
+    position: relative;
+    bottom: 130px;
+    left: 320px;
+    border-radius: 16px;
+    width: 50px;
+    height: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+.dates3{
+    position: relative;
+    left: 11px;
+}
+
+.dash3{
+    position: relative;
+    left: 17px;
+    bottom: 18px;
+    left: 80px;
+    border-radius: 16px;
+    width: 50px;
+    height: 20px;
+    color: #8695A4;
+    font-weight: 400;
+    font-size: 19px;
+}
+.cardP3{
+    width: 550px;
+    position: relative;
+    left: 310px;
+    bottom: 110px;
+}
+.icons{
+    
+    text-align: center;
+    display: block;
+    padding: 18px 20px;
+}
+.face{
+    padding-right: 20px;
+}
+.insta{
+    padding-right: 20px;
+}
+.tt{
+    padding-right: 20px;
+}
+.footYazi{
+    text-align: center;
+    padding-top: 12px;
+}
